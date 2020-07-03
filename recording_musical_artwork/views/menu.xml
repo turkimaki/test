@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="menu_musical_artwork"
+              name="Musical Artworks"
+              parent="recording.menu_recording_root"
+              sequence="200"
+    />
+
+    <menuitem id="menu_musical_artwork_artwork"
+              name="Musical Artworks"
+              parent="menu_musical_artwork"
+              action="musical_artwork.action_musical_artwork"
+              sequence="0"
+    />
+
+    <menuitem id="menu_musical_artwork_distribution"
+              name="Distribution Keys"
+              parent="menu_musical_artwork"
+              action="musical_artwork.action_musical_artwork_distribution"
+              sequence="100"
+    />
+
+    <menuitem id="menu_config_musical_artwork"
+              name="Musical Artworks"
+              parent="recording.menu_config"
+              sequence="300"
+    />
+
+    <menuitem id="menu_musical_artwork_role"
+              name="Roles"
+              parent="menu_config_musical_artwork"
+              action="musical_artwork.action_musical_artwork_role"
+              sequence="0"
+    />
+
+</odoo>

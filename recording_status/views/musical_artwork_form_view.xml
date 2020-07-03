@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="view_musical_artwork_form_inherit" model="ir.ui.view">
+        <field name="name">musical.artwork.form.view</field>
+        <field name="model">musical.artwork</field>
+        <field name="inherit_id" ref="musical_artwork.musical_artwork_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="validate_musical_artwork" string="Validate" type="object" class="oe_highlight"
+                        attrs="{'invisible': [('status', '=', 'validated')]}"
+                        groups="musical_artwork.group_musical_artwork_distribution_manager"/>
+                <field name="status" widget="statusbar"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="musical_artwork_search_inherit" model="ir.ui.view">
+        <field name="name">Musical Search</field>
+        <field name="model">musical.artwork</field>
+        <field name="inherit_id" ref="musical_artwork.musical_artwork_search"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter string="To Validate" name="to_validate" domain="[('status', '=', 'to_validate')]"/>
+                <filter string="Validated)" name="validated" domain="[('status', '=', 'validated')]"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

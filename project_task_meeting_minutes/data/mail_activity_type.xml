@@ -1,0 +1,8 @@
+<odoo>
+    <data noupdate="1">
+        <record model="mail.activity.type" id="activity_examan">
+            <field name="name">Examan</field>
+        </record>
+
+    </data>
+</odoo>

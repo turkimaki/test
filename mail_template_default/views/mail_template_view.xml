@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="email_template_tree_inherit" model="ir.ui.view">
+        <field name="name">mail.template.tree</field>
+        <field name="model">mail.template</field>
+        <field name="inherit_id" ref="mail.email_template_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='model_id']" position="after">
+               <field name="is_default_template"/>
+            </xpath>
+        </field>
+    </record>
+
+        <record id="email_template_form_inherit" model="ir.ui.view">
+        <field name="name">mail.template.form</field>
+        <field name="model">mail.template</field>
+        <field name="inherit_id" ref="mail.email_template_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='model_id']" position="after">
+               <field name="is_default_template"/>
+            </xpath>
+        </field>
+    </record>
+
+
+</odoo>

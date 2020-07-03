@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_means_communication,means.communication,model_means_communication,,1,1,1,1
+access_task_feedback,task.feedback,model_task_feedback,,1,1,1,1
+access_reminder_actions,reminder.actions,model_reminder_actions,,1,1,1,1
+access_task_examan,task.examan,model_task_examan,,1,1,1,1

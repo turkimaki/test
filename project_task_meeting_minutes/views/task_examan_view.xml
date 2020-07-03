@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="task_examan_view_form" model="ir.ui.view">
+        <field name="name">task.examan.form</field>
+        <field name="model">task.examan</field>
+        <field name="arch" type="xml">
+            <form string="Communication">
+                <sheet>
+                    <group>
+                        <field name="task_id"/>
+                        <field name="summary"/>
+                        <field name="notes"/>
+                        <field name="assigned"/>
+                        <field name="date_deadline"/>
+                    </group>
+
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="task_examan_view_tree" model="ir.ui.view">
+        <field name="name">task.examan.tree</field>
+        <field name="model">task.examan</field>
+        <field name="arch" type="xml">
+            <tree string="Examans">
+                <field name="sequence" widget="handle"/>
+                <field name="task_id"/>
+                <field name="summary"/>
+                <field name="notes"/>
+                <field name="assigned"/>
+                <field name="date_deadline"/>
+
+            </tree>
+        </field>
+    </record>
+
+
+</odoo>
