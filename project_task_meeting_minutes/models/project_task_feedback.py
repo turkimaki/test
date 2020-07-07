@@ -4,8 +4,6 @@
 from odoo import fields, models, api
 
 
-
-
 class MeansCommunication(models.Model):
     _name = 'means.communication'
     _order = 'sequence,id'
@@ -13,11 +11,6 @@ class MeansCommunication(models.Model):
     name = fields.Char(string='Name')
 
     sequence = fields.Integer(string='Sequence')
-
-
-
-
-
 
 
 class TaskFeedback(models.Model):
@@ -37,8 +30,8 @@ class TaskFeedback(models.Model):
     ressources = fields.Html('Ressources')
     risques = fields.Html('Risques')
 
-    action_ids=fields.One2many('reminder.actions','feedback_id',string='Actions')
-    exam_ids=fields.One2many('task.examan','feedback_id',string='Examan')
+    action_ids = fields.One2many('reminder.actions', 'feedback_id', string='Actions')
+    exam_ids = fields.One2many('task.examan', 'feedback_id', string='Examan')
 
 
 class PendingActionsReminder(models.Model):
@@ -55,6 +48,7 @@ class PendingActionsReminder(models.Model):
         ('today', 'Today'),
         ('planned', 'Planned')], 'State', )
 
+
 class TaskExaman(models.Model):
     _name = 'task.examan'
     sequence = fields.Integer(string='Sequence')
@@ -66,17 +60,15 @@ class TaskExaman(models.Model):
     assigned = fields.Many2one('res.users', 'Assigned')
     date_deadline = fields.Date(string='Date DeadLine')
 
-
-    def create(self,vals):
-        res= super(TaskExaman,self).create(vals)
-        activity=self.env['mail.activity'].create({
-            'res_id':res.task_id.id,
-            'res_model':'project.task',
-            'summary':res.summary,
-            'notes':res.notes,
-            'user_id':res.assigned.id,
-            'activity_type_id':self.env.ref('project_task_meeting_minutes.activity_examan').id,
-            'res_model_id':self.env['ir.model'].search([('model','=','project.task')]).id,
+    def create(self, vals):
+        res = super(TaskExaman, self).create(vals)
+        activity = self.env['mail.activity'].create({
+            'res_id': res.task_id.id,
+            'res_model': 'project.task',
+            'summary': res.summary,
+            'notes': res.notes,
+            'user_id': res.assigned.id,
+            'activity_type_id': self.env.ref('project_task_meeting_minutes.activity_examan').id,
+            'res_model_id': self.env['ir.model'].search([('model', '=', 'project.task')]).id,
         })
         return res
-
