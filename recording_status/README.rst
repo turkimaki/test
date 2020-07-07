@@ -1,17 +1,8 @@
-Recording
+Recording Status
 =========
-This module contains the most minimal setup for the recording application.
+This module contains the status for the recording application.
 
 .. contents:: Table of Contents
-
-Application Panel
------------------
-The Recording application can be accessed through the app panel.
-
-.. image:: static/description/app_panel_icon.png
-
-Menus
------
 
 Recordings
 ~~~~~~~~~~
