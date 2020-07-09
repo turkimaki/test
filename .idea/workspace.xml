@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f464b9c-3f30-40d5-91dc-e3094c79a9ff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recording_status/static/description/oeuvres_musicales.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recording_status/static/description/oeuvres_status.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/README.rst" afterPath="$PROJECT_DIR$/recording_status/README.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/__init__.py" afterPath="$PROJECT_DIR$/recording_status/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/__manifest__.py" afterPath="$PROJECT_DIR$/recording_status/__manifest__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/__init__.py" afterPath="$PROJECT_DIR$/recording_status/models/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/musical_artwork.py" afterPath="$PROJECT_DIR$/recording_status/models/musical_artwork.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/recording.py" afterPath="$PROJECT_DIR$/recording_status/models/recording.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,8 +75,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recording_status/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -264,6 +261,7 @@
       <recent name="$PROJECT_DIR$/project_task_meeting_minutes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recording_status/static/description" />
       <recent name="$PROJECT_DIR$/recording_status/i18n" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -487,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594283330031</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#">
+      <created>1594283507826</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594283507826</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -870,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recording_status/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>

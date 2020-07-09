@@ -5,7 +5,7 @@ This module contains the status for the recording application.
 .. contents:: Table of Contents
 
 
-Validate Button
+Recording
 *********
 This button allows to validate status of recording.
 
@@ -13,6 +13,14 @@ This button allows to validate status of recording.
 
 .. image:: static/description/recording_status.png
 
+Musical Artworks
+*********
+
+This button allows to validate status of musical artwork
+
+.. image:: static/description/oeuvres_musicales.png
+
+.. image:: static/description/oeuvres_status.png
 
 
 Contributors
