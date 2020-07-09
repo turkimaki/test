@@ -23,11 +23,14 @@ It contains relevant configuration objects for the application.
 When installing only the recording application any optional addon,
 it contains the following submenus.
 
-Button
+Validate Button
 *********
-This button  allows to validate status of recording.
+This button allows to validate status of recording.
 
 .. image:: static/description/status_button.png
+
+.. image:: static/description/recording_status.png
+
 
 
 Contributors
