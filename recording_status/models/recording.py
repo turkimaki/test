@@ -1,4 +1,4 @@
-# © 2019 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
+# © 2020 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 from odoo import fields, models
@@ -13,7 +13,7 @@ class Recording(models.Model):
 
     def validate_recording_status(self):
         old_status = self.status
-        self.status='validated'
+        self.status = 'validated'
         if self.env.lang == 'fr_FR':
             self.message_post(body="Utilisateur ayant validé : " + self.env.user.name)
             self.message_post(

@@ -1,4 +1,4 @@
-# © 2019 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
+# © 2020 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 {
@@ -11,7 +11,7 @@
     'category': 'Recording',
     'summary': 'Status for the recording application.',
     'depends': [
-        'base','recording','musical_artwork','mail'
+        'base', 'recording', 'musical_artwork', 'mail'
     ],
     'data': [
         'views/recording_form_view.xml',

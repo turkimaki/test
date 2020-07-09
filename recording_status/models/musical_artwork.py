@@ -1,7 +1,7 @@
-# © 2019 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
+# © 2020 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
-from odoo import fields, models,api
+from odoo import fields, models, api
 
 
 class MusicalArtwork(models.Model):
@@ -31,4 +31,3 @@ class MusicalArtwork(models.Model):
             vals['status'] = 'to_validate'
         res = super(MusicalArtwork, self).write(vals)
         return res
-

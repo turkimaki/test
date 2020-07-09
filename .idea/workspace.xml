@@ -4,6 +4,11 @@
     <list default="true" id="1f464b9c-3f30-40d5-91dc-e3094c79a9ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/README.rst" afterPath="$PROJECT_DIR$/recording_status/README.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/__init__.py" afterPath="$PROJECT_DIR$/recording_status/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/__manifest__.py" afterPath="$PROJECT_DIR$/recording_status/__manifest__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/__init__.py" afterPath="$PROJECT_DIR$/recording_status/models/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/musical_artwork.py" afterPath="$PROJECT_DIR$/recording_status/models/musical_artwork.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/recording.py" afterPath="$PROJECT_DIR$/recording_status/models/recording.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,6 +23,58 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="musical_artwork.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recording_status/models/musical_artwork.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recording.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recording_status/models/recording.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recording_status/models/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#146#169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recording_status/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recording_status/__manifest__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recording_status/README.rst">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,15 +125,12 @@
       <list>
         <option value="$PROJECT_DIR$/recording_status/models/recording_language.py" />
         <option value="$PROJECT_DIR$/recording_status/views/recording_language.xml" />
-        <option value="$PROJECT_DIR$/recording_status/models/__init__.py" />
         <option value="$PROJECT_DIR$/recording_status/i18n/fr.po" />
         <option value="$PROJECT_DIR$/musical_artwork/security/ir.model.access.csv" />
         <option value="$PROJECT_DIR$/musical_artwork/security/res_groups.xml" />
         <option value="$PROJECT_DIR$/recording_status/views/musical_artwork_form_view.xml" />
         <option value="$PROJECT_DIR$/recording_status/views/recording_form_view.xml" />
-        <option value="$PROJECT_DIR$/recording_status/__manifest__.py" />
         <option value="$PROJECT_DIR$/mail_template_default/models/recording.py" />
-        <option value="$PROJECT_DIR$/recording_status/models/musical_artwork.py" />
         <option value="$PROJECT_DIR$/mail_template_default/models/mail_template.py" />
         <option value="$PROJECT_DIR$/mail_template_default/models/__init__.py" />
         <option value="$PROJECT_DIR$/mail_template_default/views/musical_artwork_form_view.xml" />
@@ -96,7 +150,11 @@
         <option value="$PROJECT_DIR$/project_task_meeting_minutes/__manifest__.py" />
         <option value="$PROJECT_DIR$/project_task_meeting_minutes/data/mail_activity_type.xml" />
         <option value="$PROJECT_DIR$/project_task_meeting_minutes/models/project_task_feedback.py" />
+        <option value="$PROJECT_DIR$/recording_status/__init__.py" />
+        <option value="$PROJECT_DIR$/recording_status/models/musical_artwork.py" />
         <option value="$PROJECT_DIR$/recording_status/models/recording.py" />
+        <option value="$PROJECT_DIR$/recording_status/models/__init__.py" />
+        <option value="$PROJECT_DIR$/recording_status/__manifest__.py" />
         <option value="$PROJECT_DIR$/recording_status/README.rst" />
       </list>
     </option>
@@ -422,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594283184224</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#">
+      <created>1594283330031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594283330031</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -461,18 +526,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recording_musical_artwork/models/musical_artwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recording_musical_artwork/models/recording.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -484,13 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recording_status/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -749,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recording_status/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_task_meeting_minutes/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -777,23 +821,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recording_status/models/musical_artwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recording/static/description/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recording_status/models/recording.py">
+    <entry file="file://$PROJECT_DIR$/recording_status/models/musical_artwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recording_status/models/recording.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recording_status/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#146#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recording_status/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recording_status/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

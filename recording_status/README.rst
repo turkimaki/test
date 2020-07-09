@@ -5,9 +5,6 @@ This module contains the status for the recording application.
 .. contents:: Table of Contents
 
 
-
-
-
 Validate Button
 *********
 This button allows to validate status of recording.
