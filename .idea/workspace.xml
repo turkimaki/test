@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f464b9c-3f30-40d5-91dc-e3094c79a9ff" name="Default" comment="#">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recording_status/static/description/recording_status.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recording_status/static/description/status_button.png" />
+    <list default="true" id="1f464b9c-3f30-40d5-91dc-e3094c79a9ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/README.rst" afterPath="$PROJECT_DIR$/recording_status/README.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recording_status/models/recording.py" afterPath="$PROJECT_DIR$/recording_status/models/recording.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recording_status/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -411,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594127694410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#">
+      <created>1594283101150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594283101150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="#">
+      <created>1594283184224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594283184224</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,9 +455,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#" />
     <MESSAGE value="##" />
-    <option name="LAST_COMMIT_MESSAGE" value="##" />
+    <MESSAGE value="#" />
+    <option name="LAST_COMMIT_MESSAGE" value="#" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -789,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recording_status/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
