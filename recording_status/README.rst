@@ -1,6 +1,6 @@
 Recording Status
 =========
-This module contains the status for the recording application.
+This module contains the status for the recording and musical artworks.
 
 .. contents:: Table of Contents
 
