@@ -23,13 +23,12 @@ It contains relevant configuration objects for the application.
 When installing only the recording application any optional addon,
 it contains the following submenus.
 
-Languages
+Button
 *********
-This menu entry allows to configure recording languages.
+This button  allows to validate status of recording.
 
-.. image:: static/description/language_list.png
+.. image:: static/description/status_button.png
 
-See the module `recording_lang <https://github.com/Numigi/odoo-entertainment-addons/tree/12.0/recording_lang>`_ for details.
 
 Contributors
 ------------

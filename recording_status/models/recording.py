@@ -13,6 +13,7 @@ class Recording(models.Model):
 
     def validate_recording_status(self):
         old_status = self.status
+        self.status='validated'
         if self.env.lang == 'fr_FR':
             self.message_post(body="Utilisateur ayant validé : " + self.env.user.name)
             self.message_post(
